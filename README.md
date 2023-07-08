@@ -34,12 +34,14 @@
 2. Berikutnya lakukan perintah pm2 ecosystem simple difolder frontend dan backend.<br/><br/>![29](https://github.com/darblietz/ppt/assets/98991080/eda5b067-ecae-47df-903c-3bf003b7e6f9)<br>![30](https://github.com/darblietz/ppt/assets/98991080/8154d4f3-1f5f-4b24-b41a-f7dc9ef65a84)<br/><br/>
 3. Lalu edit script di ecosystem.config.js menjadi npm start, disetiap directory frontend dan backend.<br/><br/>![31](https://github.com/darblietz/ppt/assets/98991080/54ed610d-7fb4-4806-83f7-d750e35a6ac1)<br>![32](https://github.com/darblietz/ppt/assets/98991080/a19b221a-f4cd-4772-ab2d-5f2eeec905ca)<br/><br/>
 4. <br/><br/><br/><br/>
+
+### Gateway Nginx
+1. Daftarkan DNS diCloudflare dengan IP Public Gateway<br/><br/>![33](https://github.com/darblietz/ppt/assets/98991080/25aa8bd1-f68c-4f21-af34-1a74b939562d)<br/><br/>
+2. lalu install nginx di server gateway<br/><br/>![34](https://github.com/darblietz/ppt/assets/98991080/232deb69-ff6e-4876-b7e6-7ad10d8e78a3)<br/><br/>
+3. setelah itu membuat 2 file pengaturan Reverse Proxy di /etc/nginx/dumbways. dengan nama frontend.conf dan backend.conf<br/><br/>![35](https://github.com/darblietz/ppt/assets/98991080/697d21ff-c777-4510-9132-8ca9dad6d3d3)<br>![37](https://github.com/darblietz/ppt/assets/98991080/3be5029d-1a52-452a-9d9f-15bac888c25e)<br>![36](https://github.com/darblietz/ppt/assets/98991080/96e9c78e-5e6a-48d4-922d-de1b56d8c89c)<br/><br/>
+4. berikutnya masuk ke file nginx.conf untuk menambahkan include/etc/nginx/dumbways/*; <br/><br/>![39](https://github.com/darblietz/ppt/assets/98991080/5adbc8ee-2a8b-4caf-860e-af23f78cb7b9)<br>![38](https://github.com/darblietz/ppt/assets/98991080/1c84ac01-cfe2-468e-91ae-04a8c1adb657)<br/><br/>
 5. <br/><br/><br/><br/>
 6. <br/><br/><br/><br/>
-7. <br/><br/><br/><br/>
-8. <br/><br/><br/><br/>
-9. <br/><br/><br/><br/>
-10. <br/><br/><br/><br/>
 
 
 
