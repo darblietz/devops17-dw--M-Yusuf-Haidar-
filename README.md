@@ -43,5 +43,14 @@
 5. habis itu lakukan sudo nginx -t untuk mengetest syntax configurasi nginx.conf sudah berhasil atau belum. <br/><br/>![40](https://github.com/darblietz/ppt/assets/98991080/1fbfc317-9213-431e-b540-bd9c5637f800)<br/><br/>
 6. lakukan reload dan restart nginx <br/><br/>![41](https://github.com/darblietz/ppt/assets/98991080/ff571ddf-22c1-4d9a-af22-67eae9f1a606)<br/><br/>
 
+# TEST DNS 
+
+- Frontend<br>![42](https://github.com/darblietz/ppt/assets/98991080/d48fe591-4cc3-4e6a-8836-5d3e24cb6f92)<br>
+- Backend<br>![43](https://github.com/darblietz/ppt/assets/98991080/fbfe6863-5b6e-4139-891b-a22ff820ce37)
+- Login <br><br>
+![45](https://github.com/darblietz/ppt/assets/98991080/6f03d9df-8744-44b8-9872-a70f4ee99add)<br>
+![44](https://github.com/darblietz/ppt/assets/98991080/55e57b01-0f44-4b2f-bd74-937deedad34b)
+
+
 
 
