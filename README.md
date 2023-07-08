@@ -28,6 +28,8 @@
 2. Setelah itu membuat database mySQL dengan perintah sequelize db:create dan setelah dibuat, lakukan untuk memigrasikan data backend ke mySQL dengan perintah sequelize db:migrate. <br/><br/>![25](https://github.com/darblietz/ppt/assets/98991080/d4148899-1f97-43c9-aa3f-259e84a9b270)<br>![26](https://github.com/darblietz/ppt/assets/98991080/d64db539-dade-45b9-98a7-db884260db3e)
 <br/><br/>
 3. Kemudian untuk memastikan apakah migrasi sudah berhasil atau tidak dengan masuk dulu ke mySQL : sudo mysql -u rommel -p, dan perintah SHOW DATABASES; lalu USE db-wayshub; dan SHOW TABLES.<br/><br/>![27](https://github.com/darblietz/ppt/assets/98991080/e501feb1-c905-4583-b20a-5808fe90a07a)<br/><br/>
-18. <br/><br/><br/><br/>
-19. <br/><br/><br/><br/>
-20. <br/><br/><br/><br/>
+
+### Deploy aplikasi menggunakan PM2 
+1. Pertama-tama install PM2 terlebih<br/><br/>![28](https://github.com/darblietz/ppt/assets/98991080/8e842f7a-4833-45e5-ad1a-4a4021fb8109)<br/><br/>
+2. Berikutnya lakukan perintah pm2 ecosystem simple difolder frontend dan backend.<br/><br/>![29](https://github.com/darblietz/ppt/assets/98991080/eda5b067-ecae-47df-903c-3bf003b7e6f9)<br>![30](https://github.com/darblietz/ppt/assets/98991080/8154d4f3-1f5f-4b24-b41a-f7dc9ef65a84)<br/><br/>
+3. <br/><br/><br/><br/>
