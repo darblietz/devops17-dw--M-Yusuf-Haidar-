@@ -32,4 +32,14 @@
 ### Deploy aplikasi menggunakan PM2 
 1. Pertama-tama install PM2 terlebih<br/><br/>![28](https://github.com/darblietz/ppt/assets/98991080/8e842f7a-4833-45e5-ad1a-4a4021fb8109)<br/><br/>
 2. Berikutnya lakukan perintah pm2 ecosystem simple difolder frontend dan backend.<br/><br/>![29](https://github.com/darblietz/ppt/assets/98991080/eda5b067-ecae-47df-903c-3bf003b7e6f9)<br>![30](https://github.com/darblietz/ppt/assets/98991080/8154d4f3-1f5f-4b24-b41a-f7dc9ef65a84)<br/><br/>
-3. <br/><br/><br/><br/>
+3. Lalu edit script di ecosystem.config.js menjadi npm start, disetiap directory frontend dan backend.<br/><br/>![31](https://github.com/darblietz/ppt/assets/98991080/54ed610d-7fb4-4806-83f7-d750e35a6ac1)<br>![32](https://github.com/darblietz/ppt/assets/98991080/a19b221a-f4cd-4772-ab2d-5f2eeec905ca)<br/><br/>
+4. <br/><br/><br/><br/>
+5. <br/><br/><br/><br/>
+6. <br/><br/><br/><br/>
+7. <br/><br/><br/><br/>
+8. <br/><br/><br/><br/>
+9. <br/><br/><br/><br/>
+10. <br/><br/><br/><br/>
+
+
+
