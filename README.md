@@ -8,7 +8,17 @@
 5.  Berikutnya penginstallan Node Packet Manager berupa node_modules di folder Frontend dan Backend.<br/><br/>![8](https://github.com/darblietz/ppt/assets/98991080/0359d360-5ffd-462e-98e8-ac8c12f80046)
 <br>![9](https://github.com/darblietz/ppt/assets/98991080/9d462b9e-f9a5-41b1-89ef-abcbd864d7ff)<br/><br/>
 6. Setelah install, lakukan test aplikasi bisa berjalan atau tidak dengan perintah npm start <br/><br/>![13](https://github.com/darblietz/ppt/assets/98991080/394e4330-b883-461f-a29c-442f3677666c)<br>![12](https://github.com/darblietz/ppt/assets/98991080/ae9fdcea-6a7e-41c4-890f-6f16e2eb5208)<br>![11](https://github.com/darblietz/ppt/assets/98991080/c2399ed5-1b16-4e7f-bcd3-cbe8ed010ab2)<br>![10](https://github.com/darblietz/ppt/assets/98991080/fd2a32f2-ebe8-4d5b-93a0-5a640f279ba3)<br><br/><br/>
-7. <br/><br/><br/><br/>
-8. <br/><br/><br/><br/>
-9. <br/><br/><br/><br/>
+7. Berikutnya install mySQL untuk membuat database dan membuat user di mySQL.<br/><br/>![14](https://github.com/darblietz/ppt/assets/98991080/1a3092a5-3704-4848-b94b-df7821034130)<br/><br/>
+8. Setelah install masuk ke mySQL dengan perintah sudo mysql -u root -p.<br/><br/>![15](https://github.com/darblietz/ppt/assets/98991080/499497f6-3d18-4eb8-b009-1c871e8f455e)<br/><br/>
+9. Sesudah itu kita membuat ALTER USER root untuk dipassword supaya menjamin keamanannya. ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password  by 'password';<br/><br/>![16](https://github.com/darblietz/ppt/assets/98991080/c846960a-b39d-432f-bfdd-d586b2301b68)<br/><br/> 
 10. <br/><br/><br/><br/>
+11. <br/><br/><br/><br/>
+12. <br/><br/><br/><br/>
+13. <br/><br/><br/><br/>
+14. <br/><br/><br/><br/>
+15. <br/><br/><br/><br/>
+16. <br/><br/><br/><br/>
+17. <br/><br/><br/><br/>
+18. <br/><br/><br/><br/>
+19. <br/><br/><br/><br/>
+20. <br/><br/><br/><br/>
