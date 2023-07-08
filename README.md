@@ -16,9 +16,11 @@
 
 ### Install mysql_secure_installation
 1. Install mySQL securenya <br/><br/>![19](https://github.com/darblietz/ppt/assets/98991080/219d6255-cc2f-4b42-a0f2-95b0c9e27bf8)<br>![19-1](https://github.com/darblietz/ppt/assets/98991080/9b9c09f6-09ca-4c7b-ac64-6ef71fb9e1b0)<br/><br/>
+
+### Koneksikan Frontend ke Backend
+1. Ubah baseURL menjadi api.haidar.studentdumbways.my.id di api.js<br/><br/>![20](https://github.com/darblietz/ppt/assets/98991080/a954ec65-3310-4e39-899f-40d9d422dd76)<br>![21](https://github.com/darblietz/ppt/assets/98991080/7cef9e9c-cf98-4516-a854-d2d0b2d94162)<br/><br/>
 2. <br/><br/><br/><br/>
-14. <br/><br/><br/><br/>
-15. <br/><br/><br/><br/>
+3. <br/><br/><br/><br/>
 16. <br/><br/><br/><br/>
 17. <br/><br/><br/><br/>
 18. <br/><br/><br/><br/>
