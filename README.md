@@ -1,5 +1,7 @@
 # Task Cloud Computing
 
+### Deploy aplikasi di appserver
+
 1. Buat VM untuk Appserver <br/><br/>![1](https://github.com/darblietz/ppt/assets/98991080/ac43818f-864f-4bbb-b4a1-5d184c469463)
 <br/><br/>
 2. lakukan sudo apt update terlebih dahulu <br/><br/>![2](https://github.com/darblietz/ppt/assets/98991080/cf4f5907-3e43-4516-9001-efeb0d3f961e)<br/><br/>
