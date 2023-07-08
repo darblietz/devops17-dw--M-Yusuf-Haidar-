@@ -27,7 +27,7 @@
 1.  Pertama install terlebih dahulu sequelizenya difolder wayshub-backend dengan perintah berikut npm install -g sequelize-cli <br/><br/>![24](https://github.com/darblietz/ppt/assets/98991080/7be83665-dd3a-4128-974b-c19908d0844d)<br/><br/>
 2. Setelah itu membuat database mySQL dengan perintah sequelize db:create dan setelah dibuat, lakukan untuk memigrasikan data backend ke mySQL dengan perintah sequelize db:migrate. <br/><br/>![25](https://github.com/darblietz/ppt/assets/98991080/d4148899-1f97-43c9-aa3f-259e84a9b270)<br>![26](https://github.com/darblietz/ppt/assets/98991080/d64db539-dade-45b9-98a7-db884260db3e)
 <br/><br/>
-17. <br/><br/><br/><br/>
+3. Kemudian untuk memastikan apakah migrasi sudah berhasil atau tidak dengan masuk dulu ke mySQL : sudo mysql -u rommel -p, dan perintah SHOW DATABASES; lalu USE db-wayshub; dan SHOW TABLES.<br/><br/>![27](https://github.com/darblietz/ppt/assets/98991080/e501feb1-c905-4583-b20a-5808fe90a07a)<br/><br/>
 18. <br/><br/><br/><br/>
 19. <br/><br/><br/><br/>
 20. <br/><br/><br/><br/>
