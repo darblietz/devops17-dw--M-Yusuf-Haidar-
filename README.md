@@ -51,6 +51,16 @@
 ![44](https://github.com/darblietz/ppt/assets/98991080/55e57b01-0f44-4b2f-bd74-937deedad34b)<br>
 ![45](https://github.com/darblietz/ppt/assets/98991080/6f03d9df-8744-44b8-9872-a70f4ee99add)
 
+# CHALLENGE TASK SSL w/ Certbot
+
+1. install SSL with Certbot dengan perintah sudo snap install --classic certbot & `sudo ln -s /snap/bin/certbot /usr/bin/certbot. <br/><br/>![1](https://github.com/darblietz/ppt/assets/98991080/50ff941e-3953-4c5d-9807-bb1100c1381d)<br/><br/>
+2. lalu masuk ke cd /etc/nginx/dumbways. lalu pasang Certbot dengan perintah sudo certbot --nginx. <br/><br/>![2](https://github.com/darblietz/ppt/assets/98991080/3e8473b6-97d1-424a-9221-82e767e95db1)<br/><br/>
+3. ![3](https://github.com/darblietz/ppt/assets/98991080/10c1ec9c-e3c3-4eaa-879d-62301ffcf2e5)<br/><br/>
+![4](https://github.com/darblietz/ppt/assets/98991080/2cc14229-d7b4-4ca3-865d-e45cbf85b5c9)<br/><br/>
+
+
+
+
 
 
 
