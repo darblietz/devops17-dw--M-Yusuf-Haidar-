@@ -13,8 +13,10 @@
 9. Sesudah itu kita membuat ALTER USER root untuk dipassword supaya menjamin keamanannya. ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password  by 'password';<br/><br/>![16](https://github.com/darblietz/ppt/assets/98991080/c846960a-b39d-432f-bfdd-d586b2301b68)<br/><br/> 
 10. Selanjutnya membuat user dengan nama kita sendiri di mySQL dengan perintah CREATE USER 'rommel'@'%' IDENTIFIED BY 'password';<br/><br/>![17](https://github.com/darblietz/ppt/assets/98991080/fd16311a-426f-4031-bc05-d9d3966a816a)<br/><br/>
 11. Sebelum kita membuat database di -u rommel maka kita harus melakukan perintah  GRANT ALL PRIVILEGES ON *.* TO 'rommel'@'%';<br/><br/>![18](https://github.com/darblietz/ppt/assets/98991080/ae7060b7-e2ee-42d4-830f-4fc319f7972a)<br/><br/>
-12. <br/><br/><br/><br/>
-13. <br/><br/><br/><br/>
+
+### Install mysql_secure_installation
+1. Install mySQL securenya <br/><br/>![19](https://github.com/darblietz/ppt/assets/98991080/219d6255-cc2f-4b42-a0f2-95b0c9e27bf8)<br>![19-1](https://github.com/darblietz/ppt/assets/98991080/9b9c09f6-09ca-4c7b-ac64-6ef71fb9e1b0)<br/><br/>
+2. <br/><br/><br/><br/>
 14. <br/><br/><br/><br/>
 15. <br/><br/><br/><br/>
 16. <br/><br/><br/><br/>
