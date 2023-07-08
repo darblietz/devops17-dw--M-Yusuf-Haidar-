@@ -40,8 +40,8 @@
 2. lalu install nginx di server gateway<br/><br/>![34](https://github.com/darblietz/ppt/assets/98991080/232deb69-ff6e-4876-b7e6-7ad10d8e78a3)<br/><br/>
 3. setelah itu membuat 2 file pengaturan Reverse Proxy di /etc/nginx/dumbways. dengan nama frontend.conf dan backend.conf<br/><br/>![35](https://github.com/darblietz/ppt/assets/98991080/697d21ff-c777-4510-9132-8ca9dad6d3d3)<br>![37](https://github.com/darblietz/ppt/assets/98991080/3be5029d-1a52-452a-9d9f-15bac888c25e)<br>![36](https://github.com/darblietz/ppt/assets/98991080/96e9c78e-5e6a-48d4-922d-de1b56d8c89c)<br/><br/>
 4. berikutnya masuk ke file nginx.conf untuk menambahkan include/etc/nginx/dumbways/*; <br/><br/>![39](https://github.com/darblietz/ppt/assets/98991080/5adbc8ee-2a8b-4caf-860e-af23f78cb7b9)<br>![38](https://github.com/darblietz/ppt/assets/98991080/1c84ac01-cfe2-468e-91ae-04a8c1adb657)<br/><br/>
-5. <br/><br/><br/><br/>
-6. <br/><br/><br/><br/>
+5. habis itu lakukan sudo nginx -t untuk mengetest syntax configurasi nginx.conf sudah berhasil atau belum. <br/><br/>![40](https://github.com/darblietz/ppt/assets/98991080/1fbfc317-9213-431e-b540-bd9c5637f800)<br/><br/>
+6. lakukan reload dan restart nginx <br/><br/>![41](https://github.com/darblietz/ppt/assets/98991080/ff571ddf-22c1-4d9a-af22-67eae9f1a606)<br/><br/>
 
 
 
