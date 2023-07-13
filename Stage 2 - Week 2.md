@@ -43,6 +43,22 @@
   sudo su (user)
   docker version
   ```
-  <img width="563" alt="7  sudo usermod" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/a5ae40f3-9464-4744-adf9-2f12d829dd2c"><br/><img width="499" alt="8  sudo su docker version" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/794e5ee2-4bb2-48f8-8273-5402fa615972">
+  <img width="563" alt="7  sudo usermod" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/a5ae40f3-9464-4744-adf9-2f12d829dd2c"><br/><img width="499" alt="8  sudo su docker version" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/794e5ee2-4bb2-48f8-8273-5402fa615972"><br/><br/>
+
+### Deploy Applikasi on Top Docker 
+
+# Frontend
+- git clone wayshub-frontend<br/><br/>
+  ```
+  git clone https://github.com/dumbwaysdev/wayshub-frontend
+  ```
+  <img width="736" alt="9  git clone frontend" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/4bbcfd3c-25bc-489a-8f8b-bb5172297847"><br/><br/>
+- Lakukan integrasikan Frontend dan Backendnya, lalu membuat Dockerfile.<br/><br/>
+  ```
+  nano api.js
+  nano Dockerfile
+  ```
+  <img width="548" alt="10  nano api js" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/a6159122-3a7b-4818-850c-a534fee68e2b"><br/>![11  nano Dockerfile](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/5edb5813-93de-4e80-8d62-6034637d3a76)<br/><br/><img width="745" alt="12  api js" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/58fbc7ca-1d50-4dac-bb0d-8394168f8294"><br/><br/>![13  cat Dockerfile](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/d3d2f222-e6ea-4520-b80b-6da8934dc512)
+
 
 
