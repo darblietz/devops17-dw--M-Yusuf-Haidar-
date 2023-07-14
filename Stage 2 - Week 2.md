@@ -74,7 +74,15 @@
   ![17  git clone backend](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/5e68826e-4300-4026-a2d0-8252b8e5631a)<br/><br/>
   
 - Lalu integrasikan Backend dan Database, setelah itu membuat Dockerfile.<br/><br/>
-![18  nano config json](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/d2786684-68c2-4586-bec4-d20fa8d8c62c)<br/>![19  config json](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/f97b07bb-cb3a-4228-a872-45942ad40bd5)<br/>![20  nano Dockerfile backend](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/26841dde-a6dd-42a5-ab44-a0febdf0e372)
+![18  nano config json](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/d2786684-68c2-4586-bec4-d20fa8d8c62c)<br/>![19  config json](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/f97b07bb-cb3a-4228-a872-45942ad40bd5)<br/>![20  nano Dockerfile backend](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/26841dde-a6dd-42a5-ab44-a0febdf0e372)<br/><br/>
+### Docker Compose
+- Membuat dan menjalankan Docker compose<br/><br/>
+![21  nano docker-compose](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/f510beb9-1b9a-4cc6-90e9-da18d8611700)<br/><br/>
+- Lalu perintahkan command berikut :
+  ```
+  docker compose up -d
+  ```
+  ![22  docker compose up -d](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/f1675940-9b7a-4efe-b60e-c439560f0d5f)
 
 
 
