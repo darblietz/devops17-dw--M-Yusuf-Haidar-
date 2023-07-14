@@ -100,6 +100,15 @@
   ```
   ![24  docker push](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/2bfed7c4-d1e2-460d-b543-5c78fee7f086)<br/>![25  Result docker push](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/59edac12-1493-49dc-ba4f-5b339acf04cf)
 
+### Konfigurasi Reverse Proxy<br/><br/>
+
+- Membuat Reverse Proxy dan serta Certbot Sertifikasi pada aplikasi wayshub-frontend dan wayshub-backend.<br/><br/>
+![26  Cat Reverse Proxy](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/526f4398-f087-4457-a94b-189ce47c46e0)<br/>![27  dns cloudflare](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/1fbac4a7-918b-4c80-8e3c-7b8d1bcdda98)<br/>![28  SS Frontend](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/acb189a9-64ad-49a5-8296-4acedd6d7022)<br/>![29  SS Login](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/98ee04f1-ff96-43cf-8294-d731d6985a20)<br/>![30  SS Backend](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/d76b8fd1-e0db-46be-bb1f-35f4fbeafee7)
+
+
+
+
+
 
 
 
