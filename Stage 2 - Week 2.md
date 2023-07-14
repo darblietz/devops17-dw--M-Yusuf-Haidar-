@@ -45,10 +45,10 @@
   ```
   <img width="563" alt="7  sudo usermod" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/a5ae40f3-9464-4744-adf9-2f12d829dd2c"><br/><img width="499" alt="8  sudo su docker version" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/794e5ee2-4bb2-48f8-8273-5402fa615972"><br/><br/>
 
-### Deploy Applikasi on Top Docker 
+# Deploy Applikasi on Top Docker 
 
-# Frontend
-- git clone wayshub-frontend<br/><br/>
+### Frontend
+- git clone repository wayshub-frontend<br/><br/>
   ```
   git clone https://github.com/dumbwaysdev/wayshub-frontend
   ```
@@ -59,6 +59,60 @@
   nano Dockerfile
   ```
   <img width="548" alt="10  nano api js" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/a6159122-3a7b-4818-850c-a534fee68e2b"><br/>![11  nano Dockerfile](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/5edb5813-93de-4e80-8d62-6034637d3a76)<br/><br/><img width="745" alt="12  api js" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/58fbc7ca-1d50-4dac-bb0d-8394168f8294"><br/><br/>![13  cat Dockerfile](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/d3d2f222-e6ea-4520-b80b-6da8934dc512)
+
+### Database mySQL
+- Membuat dan menjalankan mySQL melalui Docker compose<br/><br/>
+![14  nano compose-mysql](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/aab79ab1-347d-4803-be6b-d2d276b37fda)<br/><br/><img width="914" alt="15  docker compose -f" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0ac163c7-9204-4285-bd87-2eeed7aa1b34"><br/><br/>
+- Lalu membuat user database<br/><br/>
+  <img width="617" alt="16  docker exec" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/4ee99484-5f8d-4916-aaa3-5fab436b9ae5">
+
+### Backend
+- git clone repository wayshub-backend<br/><br/>
+  ```
+  git clone https://github.com/dumbwaysdev/wayshub-backend
+  ```
+  ![17  git clone backend](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/5e68826e-4300-4026-a2d0-8252b8e5631a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 
 
 
