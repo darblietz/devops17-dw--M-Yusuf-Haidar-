@@ -84,6 +84,21 @@
   ```
   ![22  docker compose up -d](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/f1675940-9b7a-4efe-b60e-c439560f0d5f)
 
+### Docker Push Images
+- Lakukan login Docker.Hub didalam terminal dengan perintah berikut :
+  ```
+  docker login
+  ```
+  ![23  Docker login](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/358ec8d2-ab99-4f11-b9d5-fe8e9b8339b3) 
+
+- Kemudian memberikan tag dan push pada image.
+  ```
+  docker tag app-server-frontend erwinrommel97/wayshub-frontend
+  ```
+  ```
+  docker push erwinrommel97/wayshub-frontend
+  ```
+  ![24  docker push](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/2bfed7c4-d1e2-460d-b543-5c78fee7f086)<br/>![25  Result docker push](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/59edac12-1493-49dc-ba4f-5b339acf04cf)
 
 
 
