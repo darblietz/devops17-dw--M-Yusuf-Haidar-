@@ -50,7 +50,7 @@
 
 - Untuk membuat pipeline di butuhkan file bernama Jenkinsfile
 
-**wasyhub-frontend**<br/>
+**Jenkinsfile wasyhub-frontend**<br/>
 ```
 def branch = "main"
 def repo = "git@github.com:DitoIhkam/wayshub-frontend.git"
@@ -125,7 +125,7 @@ pipeline {
     }
 }
 ```
-**wayshub-backend**
+**Jenkinsfile wayshub-backend**
 ```
 def branch = "main"
 def repo = "git@github.com:DitoIhkam/wayshub-backend.git"
@@ -200,6 +200,7 @@ pipeline {
     }
 }
 ```
+<br/><br/>
 
 
   
