@@ -207,7 +207,7 @@ pipeline {
 - Masukkan ssh url github, branch dan dll. Hal ini dikarenakan setiap mengalami perubahan, penambahan pada Jenkinsfile harus di add, commit dan push ke akun github yang sudah di setting di server.
 - Kemudian save. Jika Jenkinsfile sudah di tambahkan ke dalam repository. bisa langsung menekan build now. ketika di build bisa melihat error di bagian logs sesuai dengan stage yg di jalankan.<br/><br/>
 ![11  Buat Pipeline](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/2e09f777-8df2-41ec-b7cc-6c71b730d74a)<br/>![12  General](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/24e04a63-52be-488c-974b-b2c69c10a545)<br/>![13  Configurasi Pipeline](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0f9d8b00-2e87-4ee6-86fd-5c6303103742)<br/><br/>![14  Result Pipeline](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/79b7af57-aed1-4058-b847-9105f5f40f29)<br/><br/>
-- Berikut Result aplikasi wayshub-frontend dan wayshub-backend yang telah berhasil di push ke docker hub.
+- Berikut Result aplikasi wayshub-frontend dan wayshub-backend yang telah berhasil di push ke docker hub.<br/><br/>![17  hub docker](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/4433ada8-9356-42e0-86a8-9c7289d446ba)<br/><br/>
 
 ## Konfigurasi Reverse Proxy
 - Membuat Reverse Proxy dan serta certbot sertifikasi pada aplikasi Jenkins.<br/><br/>![15  cloudflare](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/c8635e77-2b73-4cc0-bd82-6e7d187b1aa0)<br/>![16  cat jenkins conf](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/dfe8c571-6d41-4086-b85a-d74737539779)
