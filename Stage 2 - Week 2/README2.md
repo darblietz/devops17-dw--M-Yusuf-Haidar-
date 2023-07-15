@@ -35,8 +35,14 @@
 - Setelah memasukkan password, pada instalasi plugin pilih `recommend plugin`. Setelah plugin selesai maka akan diarahkan untuk `Create First Admin User` dan `Instance Configuration`.<br/><br/><img width="996" alt="4  getting started" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/a23050f0-d963-4daa-8aed-8055052b2436"><br/><img width="862" alt="5  Instance Configuration" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/6d29f7d3-11f6-4c88-8c3a-0bdf435e927f"><br/><br/>
 
 - Jenkins siap digunakan<br/><br/>
-<img width="1120" alt="6  welcome to jenkins" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/b0e66e81-2342-4cc9-bdd4-3b255d4b70e7">
+<img width="1120" alt="6  welcome to jenkins" src="https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/b0e66e81-2342-4cc9-bdd4-3b255d4b70e7"><br/><br/>
 
+
+## Koneksikan Jenkins dengan Server
+- Dengan mengkonfigurasi Manage Credentials dan koneksikan Jenkins dengan VPS server dengan menambahkan ssh-keygen.<br/><br/>
+  > - ***public key*** dimasukan di dalam ***authorized keys***
+  > - ***private key*** diletakan pada user ***Credentials***.<br/><br/>
+  
 
 
 
