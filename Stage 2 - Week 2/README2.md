@@ -203,7 +203,12 @@ pipeline {
 <br/><br/>
 ## Membuat Pipeline 
 
-- 
+- Pilih Pipeline dan beri nama sesuai aplikasi.
+- Masukkan ssh url github, branch dan dll. Hal ini dikarenakan setiap mengalami perubahan, penambahan pada Jenkinsfile harus di add, commit dan push ke akun github yang sudah di setting di server.
+- Kemudian save. Jika Jenkinsfile sudah di tambahkan ke dalam repository. bisa langsung menekan build now. ketika di build bisa melihat error di bagian logs sesuai dengan stage yg di jalankan.<br/><br/>
+![11  Buat Pipeline](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/2e09f777-8df2-41ec-b7cc-6c71b730d74a)<br/>![12  General](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/24e04a63-52be-488c-974b-b2c69c10a545)<br/>![13  Configurasi Pipeline](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0f9d8b00-2e87-4ee6-86fd-5c6303103742)<br/><br/>![14  Result Pipeline](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/79b7af57-aed1-4058-b847-9105f5f40f29)
+
+
 
 
   
