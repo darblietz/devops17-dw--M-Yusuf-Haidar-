@@ -41,7 +41,10 @@
 ## Koneksikan Jenkins dengan Server
 - Dengan mengkonfigurasi Manage Credentials dan koneksikan Jenkins dengan VPS server dengan menambahkan ssh-keygen.<br/><br/>
   > - ***public key*** dimasukan di dalam ***authorized keys***
-  > - ***private key*** diletakan pada user ***Credentials***.<br/><br/>
+  > - ***private key*** diletakan pada user ***Credentials***
+  <br/><br/>
+  
+  ![7  credentials](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0fef2926-58c5-4c2e-b403-fb36a1560adf)<br/><br/>![8  Global credentials](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/9d0e5dd9-d9f3-45ac-9c39-838480108d39)<br/><br/>![9  Global credentials](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/3e04b6d6-b6fc-43a2-a62a-c707143c949e)<br/><br/>![10  ssh id rsa](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/fb21c5b9-d620-40d6-aa81-c35e9fafa39b)
   
 
 
