@@ -44,7 +44,164 @@
   > - ***private key*** diletakan pada user ***Credentials***
   <br/><br/>
   
-  ![7  credentials](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0fef2926-58c5-4c2e-b403-fb36a1560adf)<br/><br/>![8  Global credentials](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/9d0e5dd9-d9f3-45ac-9c39-838480108d39)<br/><br/>![9  Global credentials](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/3e04b6d6-b6fc-43a2-a62a-c707143c949e)<br/><br/>![10  ssh id rsa](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/fb21c5b9-d620-40d6-aa81-c35e9fafa39b)
+  ![7  credentials](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0fef2926-58c5-4c2e-b403-fb36a1560adf)<br/><br/>![8  Global credentials](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/9d0e5dd9-d9f3-45ac-9c39-838480108d39)<br/><br/>![9  Global credentials](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/3e04b6d6-b6fc-43a2-a62a-c707143c949e)<br/><br/>![10  ssh id rsa](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/fb21c5b9-d620-40d6-aa81-c35e9fafa39b)<br/><br/>
+
+## Membuat Jenkinsfile Frontend dan Backend
+
+- Untuk membuat pipeline di butuhkan file bernama Jenkinsfile
+
+**wasyhub-frontend**<br/>
+```
+def branch = "main"
+def repo = "git@github.com:DitoIhkam/wayshub-frontend.git"
+def cred = "wayshub"
+def dir = "~/wayshub-frontend"
+def server = "app-server@103.172.204.253"
+def imagename = "wayshub-fe"
+def dockerusername = "kelompok2"
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Pull From Repository') {
+            steps {
+                sshagent([cred]) {
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                        cd ${dir}
+                        git remote add origin ${repo} || git remote set-url origin ${repo}
+                        git pull origin ${branch}
+                        exit
+                        EOF
+                    """
+                }
+            }
+        }
+
+    stage('Dockerize') {
+            steps {
+                sshagent([cred]) {
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                        cd ${dir}
+                        docker build -t ${imagename}:latest .
+                        exit
+                        EOF
+                    """
+                }
+            }
+        }
+
+        stage('Deploy Docker') {
+            steps {
+                sshagent([cred]) {
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                        cd ${dir}
+                        docker container stop ${imagename}
+                        docker container rm ${imagename}
+                        docker run -d -p 3000:3000 --name="${imagename}"  ${imagename}:latest
+                        docker container stop ${imagename}
+                        docker container rm ${imagename}
+                        exit
+                        EOF
+                    """
+                }
+            }
+        }
+
+        stage('Push to Docker Hub') {
+            steps {
+               sshagent([cred]) {
+			    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+				    docker tag ${imagename}:latest ${dockerusername}/${imagename}:latest
+				    docker image push ${dockerusername}/${imagename}:latest
+				    docker image rm ${dockerusername}/${imagename}:latest
+				    docker image rm ${imagename}:latest
+				    exit
+                    EOF
+			"""
+		        }
+            }
+        }
+    }
+}
+```
+**wayshub-backend**
+```
+def branch = "main"
+def repo = "git@github.com:DitoIhkam/wayshub-backend.git"
+def cred = "wayshub"
+def dir = "~/wayshub-backend"
+def server = "app-server@103.172.204.253"
+def imagename = "wayshub-be"
+def dockerusername = "kelompok2"
+
+pipeline {
+    agent any
+
+    stages {
+        stage('Pull From Repository') {
+            steps {
+                sshagent([cred]) {
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                        cd ${dir}
+                        git remote add origin ${repo} || git remote set-url origin ${repo}
+                        git pull origin ${branch}
+                        exit
+                        EOF
+                    """
+                }
+            }
+        }
+
+    stage('Dockerize') {
+            steps {
+                sshagent([cred]) {
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                        cd ${dir}
+                        docker build -t ${imagename}:latest .
+                        exit
+                        EOF
+                    """
+                }
+            }
+        }
+
+        stage('Deploy Docker') {
+            steps {
+                sshagent([cred]) {
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                        cd ${dir}
+                        docker container stop ${imagename}
+                        docker container rm ${imagename}
+                        docker run -d -p 3000:3000 --name="${imagename}"  ${imagename}:latest
+                        docker container stop ${imagename}
+                        docker container rm ${imagename}
+                        exit
+                        EOF
+                    """
+                }
+            }
+        }
+
+        stage('Push to Docker Hub') {
+            steps {
+               sshagent([cred]) {
+			    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+				    docker tag ${imagename}:latest ${dockerusername}/${imagename}:latest
+				    docker image push ${dockerusername}/${imagename}:latest
+				    docker image rm ${dockerusername}/${imagename}:latest
+				    docker image rm ${imagename}:latest
+				    exit
+                    EOF
+			"""
+		        }
+            }
+        }
+    }
+}
+```
+
+
   
 
 
