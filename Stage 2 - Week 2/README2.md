@@ -45,6 +45,8 @@
   <br/><br/>
   
   ![7  credentials](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0fef2926-58c5-4c2e-b403-fb36a1560adf)<br/><br/>![8  Global credentials](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/9d0e5dd9-d9f3-45ac-9c39-838480108d39)<br/><br/>![9  Global credentials](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/3e04b6d6-b6fc-43a2-a62a-c707143c949e)<br/><br/>![10  ssh id rsa](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/fb21c5b9-d620-40d6-aa81-c35e9fafa39b)<br/><br/>
+- Kemudian tambahkan plugin ssh pada jenkins agar bisa menggunakan koneksi ssh.<br/><br/>![SSH Agent Plugin](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/3c4a8c40-88d9-4492-b4da-3ca3dc2fc8e5)
+<br/><br/>
 
 ## Membuat Jenkinsfile Frontend dan Backend
 
