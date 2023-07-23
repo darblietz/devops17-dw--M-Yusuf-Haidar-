@@ -58,6 +58,11 @@
   $ mkpasswd --method=sha-256
   ```
   ![7  encyript password](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/8a288363-4a7a-4d52-966c-f6a2f4b3ddb7)<br><br>
+- Setelah mendapatkan password yang sudah di enkripsi, copy password tersebut dan tambahkan kedalam file create-user.yml. Setelah itu jalankan file dengan menggunakan ansible playbook.<br><br>![8  ansible-playbook create-user yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/22989726-9309-435a-9ce9-3ae000cb7f36)<br><br>
+
+### Install Docker dan Menjalankan wayshub-frontend melalui Ansible
+- Pertama membuat file install-docker.yml dengan parameter kebutuhan user. dan jalankan dengan ansible-playbook.<br><br>![9  cat install-docker yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/c6c343d6-5e6e-4b6f-adde-94dc3edc7917)<br><br>![10  ansible-playbook install-docker yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/041f84ed-2507-4dfc-8c1a-24413b730676)<br><br>
+
 
 
 
