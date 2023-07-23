@@ -65,6 +65,7 @@
 - Kemudian buat file docker-compose.yml.<br><br>![11  docker-compose yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/ea05d08c-c81b-4201-9584-8dad36796c94)<br><br>
 - Berikutnya membuat file deploy-wayshub.yml<br><br>![12  deploy-wayshub yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/dd78f25b-4b3f-40f9-bab0-f15b6f85e710)<br><br>
 - Dan jalankan dengan ansible-playbook<br><br>![13  ansible-playbook deploy-wayshub yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/48ea747b-f3d9-48bf-a60e-943fb401e9e5)<br><br>
+- Result<br><br>![14  haidar studentdumbways my id](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/8a3cb192-f135-4300-984f-9149e81b30de)<br><br>
 
 
 
