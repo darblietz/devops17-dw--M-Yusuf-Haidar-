@@ -15,6 +15,15 @@ pip 21.0.1 from /usr/lib/python3.9/site-packages/pip (python 3.9)
 $ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 $ python3 get-pip.py --user
 ```
+- Berikutnya install Ansible melalui pip<br>
+```
+$ python3 -m pip install --user ansible
+```
+- Setelah terinstall, konfirmasi install Ansible dengan :
+```
+ansible --version |
+ansible-community --version
+```
 
 
 
