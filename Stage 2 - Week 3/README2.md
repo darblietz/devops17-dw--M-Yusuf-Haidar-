@@ -73,7 +73,7 @@
 - Setelah selesai file yang dibuat, lakukan perintah ansible-playbook untuk menjalankannya.<br><br>![17  ansible-playbook nginx yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/8a55cde9-34e5-4d9a-947e-78fcb7d674a8)<br><br>
 
 ### Monitoring Node-Exporter, Prometheus, dan Grafana<br><br>
-- Pertama pull registry node-exporter terlebih dahulu melalui ansible sesuai dengan paramater yang berlaku. disini saya pull di file install-docker.yml<br><br>![18  pull node-exporter](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/ec6eab8e-c18d-4eab-b57c-2fcded6b860b)<br><br>![19  node-exporter](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0b40aa15-f7c3-470c-80a3-e8be9cbd2f34)<br><br>
+- Pertama pull registry node-exporter terlebih dahulu melalui ansible sesuai dengan paramater yang berlaku. disini saya pull di file install-docker.yml<br><br>![18  pull node-exporter](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/ec6eab8e-c18d-4eab-b57c-2fcded6b860b)<br><br>![19  node-exporter](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/5148cbe5-aa4e-4233-a97e-086df789fd25)<br><br>
   
 
 
