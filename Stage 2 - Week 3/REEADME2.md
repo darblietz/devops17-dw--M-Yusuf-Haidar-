@@ -27,6 +27,11 @@
    ```
    ![2  ansbile --version](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/64b6a39b-550b-4ac1-b416-eba07ef0bca2)<br><br>
 
+### Setup Konfigurasi Ansible <br><br>
+- Membuat file konfigurasi Inventory dan ansible.cfg<br><br>![3  nano Inventory dan ansible cfg](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/eae065ba-0d57-43fe-a5da-06fae45251e6)<br><br>![4  nano Inventory](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/86337232-71c4-4cc3-883f-a6e4f765ae33)<br><br>![5  nano ansible cfg](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/3fae3fa3-e217-41b0-acb6-b707b36d847d)
+
+
+
 
 
 
