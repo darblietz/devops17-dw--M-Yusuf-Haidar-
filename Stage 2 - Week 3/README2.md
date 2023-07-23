@@ -67,6 +67,15 @@
 - Dan jalankan dengan ansible-playbook<br><br>![13  ansible-playbook deploy-wayshub yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/48ea747b-f3d9-48bf-a60e-943fb401e9e5)<br><br>
 - Result<br><br>![14  haidar studentdumbways my id](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/8a3cb192-f135-4300-984f-9149e81b30de)<br><br>
 
+### Setup Nginx 
+- Pertama daftarkan DNS di cloudflare<br><br>![15  cloudflare](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/3e641068-1e23-44d2-99fc-3eb56508f4e2)<br><br>
+- Kemudian membuat file untuk install Nginx dan setup reverse proxy di Ansible<br><br>![16  nano nginx yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/18f0098a-e234-42e7-ad3e-043993a1ccea)<br><br>
+- Setelah selesai file yang dibuat, lakukan perintah ansible-playbook untuk menjalankannya.<br><br>![17  ansible-playbook nginx yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/8a55cde9-34e5-4d9a-947e-78fcb7d674a8)<br><br>
+
+
+
+
+
 
 
 
