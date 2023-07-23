@@ -62,6 +62,10 @@
 
 ### Install Docker dan Menjalankan wayshub-frontend melalui Ansible
 - Pertama membuat file install-docker.yml dengan parameter kebutuhan user. dan jalankan dengan ansible-playbook.<br><br>![9  cat install-docker yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/c6c343d6-5e6e-4b6f-adde-94dc3edc7917)<br><br>![10  ansible-playbook install-docker yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/041f84ed-2507-4dfc-8c1a-24413b730676)<br><br>
+- Kemudian buat file docker-compose.yml.<br><br>![11  docker-compose yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/ea05d08c-c81b-4201-9584-8dad36796c94)<br><br>
+- Berikutnya membuat file deploy-wayshub.yml<br><br>![12  deploy-wayshub yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/dd78f25b-4b3f-40f9-bab0-f15b6f85e710)<br><br>
+- Dan jalankan dengan ansible-playbook<br><br>![13  ansible-playbook deploy-wayshub yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/48ea747b-f3d9-48bf-a60e-943fb401e9e5)<br><br>
+
 
 
 
