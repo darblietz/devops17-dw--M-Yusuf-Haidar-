@@ -82,7 +82,7 @@
   ```
    docker run -d -p 9090:9090 -v ~/prometheus.yml:/etc/prometheus/prometheus.yml bitnami/prometheus
   ```
-- Dan akses prometheus di Web browser<br><br>![21  prome haidar](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/8641be1e-b43d-4fd8-9e7f-1960614296c7)<br><br>![22  prome haidar status target](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0fafbdd8-15c6-48ea-8147-2410e36783ba)<br><br>
+- Dan akses prometheus di Web browser dan klik statu lalu target.<br><br>![21  prome haidar](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/8641be1e-b43d-4fd8-9e7f-1960614296c7)<br><br>![22  prome haidar status target](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0fafbdd8-15c6-48ea-8147-2410e36783ba)<br><br>
 
 
 
