@@ -28,7 +28,37 @@
    ![2  ansbile --version](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/64b6a39b-550b-4ac1-b416-eba07ef0bca2)<br><br>
 
 ### Setup Konfigurasi Ansible <br><br>
-- Membuat file konfigurasi Inventory dan ansible.cfg<br><br>![3  nano Inventory dan ansible cfg](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/eae065ba-0d57-43fe-a5da-06fae45251e6)<br><br>![4  nano Inventory](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/86337232-71c4-4cc3-883f-a6e4f765ae33)<br><br>![5  nano ansible cfg](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/3fae3fa3-e217-41b0-acb6-b707b36d847d)
+- Membuat file konfigurasi Inventory dan ansible.cfg<br><br>![3  nano Inventory dan ansible cfg](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/eae065ba-0d57-43fe-a5da-06fae45251e6)<br><br>![4  nano Inventory](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/86337232-71c4-4cc3-883f-a6e4f765ae33)<br><br>![5  nano ansible cfg](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/3fae3fa3-e217-41b0-acb6-b707b36d847d)<br><br>
+### Create User <br><br>
+- Pertama buat file create-user.yml. Dan isikan konfigurasi seperti dibawah ini :<br><br>
+  ```
+  ---
+  - become: true
+    gather_facts: false
+    hosts: all
+    tasks:
+      - name: "Creating User"
+        ansible.builtin.user:
+        groups: sudo
+        name: "{{username}}"
+        password: "{{password}}"
+        state: present
+        append: yes
+        home: /home/({username})
+    vars:
+      - username: # Fill in your desired username
+      - password:  # whois encrypted password
+  ```
+  ![6  create-user yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/03e387f4-c79f-4c5e-a63c-4b024f4619f0)<br><br>
+- Untuk password user harus mengisinya dengan password yang sudah di enkripsi, untuk membuat password yang di enkripsi memerlukan package yang bernama whois. Install whois dan ketikkan password yang akan di enkripsi. Bisa gunakan perintah dibawah ini.<br><br>
+  ```
+  $ sudo apt install whois
+  ```
+  ```
+  $ mkpasswd --method=sha-256
+  ```
+  ![7  encyript password](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/8a288363-4a7a-4d52-966c-f6a2f4b3ddb7)<br><br>
+
 
 
 
