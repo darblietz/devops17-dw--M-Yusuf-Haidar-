@@ -76,13 +76,20 @@
 - Pertama pull registry node-exporter terlebih dahulu melalui ansible sesuai dengan paramater yang berlaku. disini saya pull di file install-docker.yml<br><br>![18  pull node-exporter](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/ec6eab8e-c18d-4eab-b57c-2fcded6b860b)<br><br>![19  node-exporter](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/5148cbe5-aa4e-4233-a97e-086df789fd25)<br><br>
 
 #### Prometheus
-- Pertama pull bitname/prometheus di file docker-monitoring.yml.<br><br>![20  pull prometheus](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/6582e1a3-8aa6-45fd-8032-6662c3883ab8)<br><br>
+- Pertama pull bitname/prometheus dan grafana/grafana di file docker-monitoring.yml.<br><br>![20  pull prometheus](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/6582e1a3-8aa6-45fd-8032-6662c3883ab8)<br><br>
 - lalu buat file nano prometheus.yml<br><br>![23  nano prometheus](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/32483378-3c1d-48ad-800b-a3f13981b5e5)<br><br>
 - Jalankan perintah :<br><br>
   ```
    docker run -d -p 9090:9090 -v ~/prometheus.yml:/etc/prometheus/prometheus.yml bitnami/prometheus
   ```
 - Dan akses prometheus di Web browser dan klik statu lalu target.<br><br>![21  prome haidar](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/8641be1e-b43d-4fd8-9e7f-1960614296c7)<br><br>![22  prome haidar status target](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0fafbdd8-15c6-48ea-8147-2410e36783ba)<br><br>
+
+- Jalankan grafana<br><br>
+  ```
+  docker run -d -p 3000:3000 grafana/grafana
+  ```
+  ![24  welcome to grafana](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/5be962eb-d697-4e08-9383-7de5b2bc5ce5)<br><br>![25  grafana cpu usage](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/9a3b1e1a-205f-4df7-bd7e-d7b129dd3868)<br><br>![26  grafana cpu usage2](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0d497392-90ea-4904-b482-b78b84d4eb37)<br><br>
+
 
 
 
