@@ -73,7 +73,12 @@
 - Setelah selesai file yang dibuat, lakukan perintah ansible-playbook untuk menjalankannya.<br><br>![17  ansible-playbook nginx yml](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/8a55cde9-34e5-4d9a-947e-78fcb7d674a8)<br><br>
 
 ### Monitoring Node-Exporter, Prometheus, dan Grafana<br><br>
-- Pertama pull registry node-exporter terlebih dahulu melalui ansible sesuai dengan paramater yang berlaku. disini saya pull di file install-docker.yml<br><br>![18  pull node-exporter](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/ec6eab8e-c18d-4eab-b57c-2fcded6b860b)<br><br>![19  node-exporter](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/5148cbe5-aa4e-4233-a97e-086df789fd25)<br><br>
+- Pertama pull registry node-exporter terlebih dahulu melalui ansible sesuai dengan paramater yang berlaku. disini saya pull di file install-docker.yml<br><br>![18  pull node-exporter](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/ec6eab8e-c18d-4eab-b57c-2fcded6b860b)<br><br>
+- Jalankan perintah :<br><br>
+  ```
+  docker run -d -p 9100:9100 --name node-exp bitnami/node-exporter
+  ```
+  ![19  node-exporter](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/5148cbe5-aa4e-4233-a97e-086df789fd25)<br><br>
 
 #### Prometheus
 - Pertama pull bitname/prometheus dan grafana/grafana di file docker-monitoring.yml.<br><br>![20  pull prometheus](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/6582e1a3-8aa6-45fd-8032-6662c3883ab8)<br><br>
@@ -88,7 +93,7 @@
   ```
   docker run -d -p 3000:3000 grafana/grafana
   ```
-  ![24  welcome to grafana](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/5be962eb-d697-4e08-9383-7de5b2bc5ce5)<br><br>![25  grafana cpu usage](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/9a3b1e1a-205f-4df7-bd7e-d7b129dd3868)<br><br>![26  grafana cpu usage2](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0d497392-90ea-4904-b482-b78b84d4eb37)<br><br>
+  ![24  welcome to grafana](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/5be962eb-d697-4e08-9383-7de5b2bc5ce5)<br><br>![25  grafana cpu usage](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/9a3b1e1a-205f-4df7-bd7e-d7b129dd3868)<br><br>![26  grafana cpu usage2](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/0d497392-90ea-4904-b482-b78b84d4eb37)<br><br>![27  memory available](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/8565eb45-9bce-4638-87fd-4c74b474982a)<br><br>![28  cpu and memory](https://github.com/darblietz/devops17-dw--M-Yusuf-Haidar-/assets/98991080/e91d1ba3-0db3-47c3-a3c8-614fcbd61914)<br><br>
 
 
 
